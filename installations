@@ -1,8 +1,21 @@
 #!/bin/bash
 
-#Installiere Storage-Zugriff
-termux-setup-storage
+#ERSTE SCHRITTE
+  #Autorisiere Zugriff auf Geräte-Speicher
+  termux-setup-storage
 
+  #Install Git
+  pkg install git gh -y
 
-pkg install curl git gh man nmap root-repo x11-repo tree wget -y
-pkg install
+  #Install Repos
+  pkg install root-repo x11-repo -y
+
+  #Install Hilfe & Info
+  pkg install man mandoc -y
+
+  #Install Network
+  pkg install nmap tcpdump -y
+
+  #Install Weiteres
+  pkg install tree wget curl -y
+
