@@ -1,5 +1,5 @@
 #!/bin/bash
 
-set -gx LANG de_DE-UFT.8
-set -gx LC_ALL de_DE-UFT.8
-set -gx USER "SM"
+LANG="de_DE-UFT.8"
+LC_ALL="de_DE-UFT.8"
+USER="SM"
