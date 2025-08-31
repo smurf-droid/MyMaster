@@ -1,5 +1,5 @@
 #!/bin/bash
 
-termux-install-storage
+termux-setup-storage
 
 pkg install curl git man nmap root-repo x11-repo tree wget -y
