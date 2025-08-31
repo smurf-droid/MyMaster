@@ -1,5 +1,5 @@
 #!/bin/bash
 
-LANG="de_DE-UFT.8"
-LC_ALL="de_DE-UFT.8"
-USER="SM"
+LANG=de_DE-UFT.8
+LC_ALL=de_DE-UFT.8
+USER=SM
