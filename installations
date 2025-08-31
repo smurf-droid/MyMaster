@@ -2,4 +2,4 @@
 
 termux-install-storage
 
-pkg install curl git nmap root-repo x11-repo tree wget -y
+pkg install curl git man nmap root-repo x11-repo tree wget -y
