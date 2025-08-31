@@ -1,2 +1,5 @@
+#!/bin/bash
 
-pkg install tree -y
+termux-install-storage
+
+pkg install curl git nmap root-repo x11-repo tree wget -y
