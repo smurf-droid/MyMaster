@@ -11,7 +11,7 @@
   pkg install root-repo x11-repo -y
 
   #Install Hilfe & Info
-  pkg install man mandoc -y
+  pkg install man mandoc hwinfo -y
 
   #Install Network
   pkg install nmap tcpdump -y
