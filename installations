@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Installiere Storage-Zugriff
 termux-setup-storage
 
+
 pkg install curl git gh man nmap root-repo x11-repo tree wget -y
+pkg install
